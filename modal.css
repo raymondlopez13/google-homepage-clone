@@ -1,0 +1,13 @@
+.three-dots-container {
+    background-color: white;
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 3%;
+}
+.three-dots-container a {
+    padding: 10px 20px;
+}
+.hidden {
+    display: none;
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="modal.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +13,42 @@
     <nav>
         <a href="#" class="link-no-image">Gmail</a>
         <a href="#" class="link-no-image">Images</a>
-        <a class="link-image">
+        <a class="link-image" onclick="displayModal()" id="three-dots">
             <img class="menu-btn" src="./photos/menu.png" alt="menu" />
          </a>
-        <a class="link-image">
+        <a class="link-image" id="profile-picture">
             <img class="profile-pic" src="./photos/IMG_5755.JPG" alt="Profile picture"/>
         </a>
     </nav>
+    <div class="hidden three-dots-container" id="menu1">
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+        <a href="#">
+            <img alt="photo" />
+        </a>
+    </div>
     <main>
         <h1>Google</h1>
         <input type="text" />
@@ -27,5 +57,6 @@
             <p>Add Shortcut</p>   
         </button>
     </main>
+    <script src="./modal.js"></script>
 </body>
 </html>
