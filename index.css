@@ -4,15 +4,27 @@ body {
 nav {
     display: flex;
     font-family: sans-serif;
-    padding-top: 10px;
     justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
 }
 nav a {
-    padding: 5px;
+    padding: 0px 5px;
     color: white;
     font-size: small;
     text-decoration: none;
+    font-weight: bold;
 }
 nav a.link-no-image:hover {
     text-decoration: underline;
+}
+.menu-btn {
+    filter: invert(100%);
+    width:25px;
+    padding-left: 10px;
+}
+.profile-pic {
+    width:35px;
+    border-radius: 50%;
+    padding: 0px 5px;
 }
